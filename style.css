@@ -1,0 +1,15 @@
+header{
+    background-color: darkgreen;
+    display: flex;
+}
+main{
+    background-color: darkseagreen;
+    display:flex;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+}
+footer{
+    background-color: firebrick;
+    display: flex;
+}
