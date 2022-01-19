@@ -34,8 +34,8 @@ h2{
     font-style: italic;
     background-color: white;
     box-shadow: 2px 2px 5px #00d9ff;
-    height: 50px;
-    width: 150px;
+    height: 5vh;
+    width: 10vw;
     border-radius: 15px;
  text-align: center;
 padding-top: 1%;
@@ -44,10 +44,6 @@ padding-top: 1%;
   
 }
 
-#embranco{
-    background-color: darkseagreen;
-    height: 3%;
-}
 
 #menu{
     
@@ -56,9 +52,9 @@ background-color: darkseagreen;
      /* border:1px solid #00d9ff; */
  align-items: center;
  justify-content: center;
-     height: 20%;
-
-
+     height: 22%;
+     padding-top: 1.5%;
+     padding-bottom: 1.5%;
     font-size: 25px;
     row-gap: 10px;
     column-gap: 20px;
@@ -66,7 +62,8 @@ background-color: darkseagreen;
 }
 #menu-D{
     font-size: 21px;
-  height: 50px;
+    height: 5vh;
+    width: 10vw;
 }
 
 #empresas{
