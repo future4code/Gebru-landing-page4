@@ -30,9 +30,10 @@ main{
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 95vh;
-    padding-bottom: 10%;
+    height: 95vh; /*espanção da tela*/
+    padding-bottom: 10%; /*distancia do footer*/
 
+padding-top: 5vh; /*distancia para o sticky*/
   
 
 }
@@ -41,7 +42,7 @@ h2{
     padding-left: 10vw;
     padding-top: 2%;
 }
-.menu{
+.menu{           /*..............estrutura da main...........*/
     color: hsl(207, 100%, 50%);
     font-style: italic;
     background-color: white;
@@ -109,7 +110,7 @@ padding: 2% 5%;
 }
 
 
-.dados{
+.dados{  /*.........logo e informações da empresa.............*/
     background-color: rgb(220, 236, 220);
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -118,6 +119,7 @@ padding: 2% 5%;
 padding: 2% 5%;
 }
 
+/*.........começando a responsividade..............*/
 @media screen  and (max-device-width : 480px) {
     #grupo-empresas{
         display: grid;
@@ -131,15 +133,10 @@ padding: 2% 5%;
 
 }
 
+/*......................................................*/
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-
-
-
-
 
 
 
