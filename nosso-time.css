@@ -1,0 +1,13 @@
+.nosso-time {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    border: solid 1px black;
+}
+.trabalho-equipe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color:black;
+    font:normal 20px Arial;
+}
