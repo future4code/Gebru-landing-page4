@@ -12,7 +12,7 @@ header{
 /*........complemetei.........*/
  height: 35vh; /*a altura alterada*/
  background-color: white; /*adicionei um fundo*/
- position: sticky;  /*deichei estatco*/
+ /* position: sticky;  deichei estatco */
  top: 0vh; /*posicionei a 0 de distancia do top para a posisação de sticky*/
 /*...............................*/
 
@@ -68,8 +68,10 @@ padding-top: 1%;
 }
 
 .menu:hover{
-    height: 6vh;
-    width: 12vw; 
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease; 
 }
 
 
@@ -116,10 +118,13 @@ background-color: darkseagreen;
     width: 30vw;
     border-radius: 15px;
     padding: 0 0 ;
+    
 }
 .empresas:hover{
-    height: 24vh;
-    width: 31vw;  
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease; 
 }
 
 #grupo-empresas{
@@ -141,6 +146,13 @@ padding: 2% 5% 30vh;
 
 
 padding: 2% 5%;
+}
+.dados1{
+    
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    padding: 2% 5%;
+    
 }
 
 /*.........começando a responsividade..............*/
@@ -395,3 +407,37 @@ footer > div a:hover{
   }
   /* Aqui termina a Estilização do Formulario */
 
+  /* Aqui começa estilização Hamburgueria */
+  /* .grade-pratos{
+      display: flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      border: 1px solid black;
+      
+
+  }*/
+  /* Fiz os links das paginas empresas, ajustei as imagens e criei um texto
+  ficticio para cada empresa, troquei o hover , coloquei uma mais suave
+  adicionei no index uma faixa de imagens com hover nao clicaveis
+  adicionei no index as empresas. */
+   .imagens-pratos{
+    width: 250px!important;
+    height: 190px!important;
+    margin-right: 10px;
+
+  } 
+  .imagens-pratos1{
+    width: 250px!important;
+    height: 190px!important;
+    margin-right: 10px;
+
+  } 
+.imagens-pratos1:hover{
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease;
+}
