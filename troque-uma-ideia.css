@@ -6,12 +6,12 @@ form{
     padding:20px;
     position: absolute;
     left: 20%;
-    top: 35%;
+    top: 38%;
     transform: (-50%, -50%);
     
 }
 footer{
-    margin-top: -26%;
+    margin-top: 36%;
 }
 input {
     width: 100%;
@@ -38,5 +38,4 @@ input {
 }
 .botao:hover{
     background:rgb(50, 230, 50);
-   
 }

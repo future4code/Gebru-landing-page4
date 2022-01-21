@@ -1,10 +1,9 @@
 #container{
    text-align: center;
    width: 80%;
-   height: 50vh;
+   height: 80vh;
    margin-left: 8%;
    margin-top: 2.5%;
- 
 }
 .titulo{
     font-family: sans-serif;
@@ -14,13 +13,13 @@
 .img-trabalho{
     width: 25%;
     width: 20%;
-    border:solid black;
     border-radius: 100%;
     border:none;
 }
 .centro{
     margin-left: 35%;
-    margin-top: 5%;
+    margin-top: -8%;
+    
 }
 .subtitulo {
     font-family: sans-serif;
@@ -29,5 +28,5 @@
     color:rgb(79, 63, 80);
 }
 footer{
-    margin-top: -12%;
+    margin-top: 2%;
 }

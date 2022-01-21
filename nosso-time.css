@@ -1,8 +1,8 @@
 .nosso-time {
     display: flex;
     flex-direction: row;
-    height: 20vh;
-    border: solid 1px black;
+    height: 60vh;
+   
 }
 .trabalho-equipe{
     display: flex;
@@ -10,4 +10,7 @@
     margin-left: 20px;
     color:black;
     font:normal 20px Arial;
+}
+footer {
+    margin-top: 10%;
 }
