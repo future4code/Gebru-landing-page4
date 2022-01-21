@@ -112,6 +112,7 @@ background-color: darkseagreen;
     background-color: darkseagreen;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: white;
     box-shadow: 2px 2px 5px #2c97aa;
     height: 22vh;
@@ -143,7 +144,7 @@ padding: 2% 5% 30vh;
     background-color: rgb(220, 236, 220);
     display: grid;
     grid-template-columns: 2fr 4fr;
-
+    
 
 padding: 2% 5%;
 }
@@ -151,7 +152,12 @@ padding: 2% 5%;
     
     display: grid;
     grid-template-columns: 2fr 4fr;
+    align-items:center;
     padding: 2% 5%;
+    text-align:center;
+    font-size: 79%;
+    
+    
     
 }
 
@@ -284,7 +290,7 @@ footer > div a:hover{
       height: 100px;
   }
   .nome{
-      margin-left: -180px;
+      margin-left: -16%;
       margin-top: 30px;
       width: 125px;
       color: white;
@@ -424,15 +430,17 @@ footer > div a:hover{
   adicionei no index uma faixa de imagens com hover nao clicaveis
   adicionei no index as empresas. */
    .imagens-pratos{
-    width: 250px!important;
-    height: 190px!important;
-    margin-right: 10px;
-
+    width: 13vw!important;
+    height: 17.4vh!important;
+    margin-right: 0.3%;
+    margin-left: 0.6%;
+    margin-top: 1%;
   } 
   .imagens-pratos1{
-    width: 250px!important;
-    height: 190px!important;
-    margin-right: 10px;
+    width: 13vw!important;
+    height: 17.4vh!important;
+    margin-right: 0.3%;
+    margin-left: 0.6%;
 
   } 
 .imagens-pratos1:hover{
