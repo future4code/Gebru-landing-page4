@@ -3,11 +3,17 @@
     padding: 0;
 }
 header{
-    /* background-image: linear-gradient(to left, rgb(133, 180, 141),rgba(16, 34, 138, 0) ); */
+    display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items:flex-end; 
+ padding-bottom: 3vh;
+ padding-right: 5vw;
+ padding-left: 5vw;
+/*   
     display: flex;
-    justify-content:space-evenly;
-    align-items:flex-end;
-    margin-top: -45px;
+   justify-content:space-evenly;
+   align-items:flex-end; 
+   margin-top: -45px; */
 
 /*........complemetei.........*/
  height: 35vh; /*a altura alterada*/
@@ -34,12 +40,8 @@ main{
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* height: 95vh; */
-     /*espanção da tela*/
-    /* padding-bottom: 20%;  */
-    /*distancia do footer*/
+ 
 
-padding-top: 5vh; /*distancia para o sticky*/
   
 
 }
@@ -60,7 +62,7 @@ h2{
     background-color: white;
     box-shadow: 2px 2px 5px #00d9ff;
     height: 5vh;
-    width: 10vw;
+    width: 15vw;
     border-radius: 20px;
  text-align: center;
 padding-top: 1%;
@@ -70,6 +72,7 @@ padding-top: 1%;
 }
 
 .menu:hover{
+    background-color: #c5f3ed;
     -webkit-transform: scale(0.2);
 -ms-transform: scale(1.2);
 transform: scale(1.1);
@@ -95,12 +98,15 @@ background-color: darkseagreen;
 #menu-D{
     font-size: 21px;
     height: 5vh;
-    width: 10vw;
+    width: 15vw;
 }
 
 #menu-D:hover{
-    height: 6vh;
-    width: 12vw;
+    background-color:   #c5f3ed;
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.3s ease; 
 }
 
 #empresas{
@@ -181,21 +187,36 @@ padding: 2% 5%;
         box-shadow: 2px 2px 5px #2c97aa;
         /* height: 22vh; */
          width: 100vw;
-        /* border-radius: 15px;
-        padding: 0 0 ;  */
+      
         
     }
     #grupo-empresas{
    display: flex;
    flex-direction: column;
-      /* row-gap: 15px; */
-      /* column-gap: 15px; */
-      /* justify-items: center; */
-      /* align-items: center; */
-      /* padding: 2%  */
+    
       }
+      /* header{
+          display: flex;
+          flex-direction: column;
+      } */
+
+      .menu{
+         padding-top: 2vh;
+          font-size: 1.5vh;
+      }
+      #menu-D{
       
-}
+        padding-top: 2vh;
+        font-size: 1.5vh;
+    } 
+    
+    #img{
+        width: 30vw;
+    }
+    
+
+      }
+
 
 
 /*......................................................*/
@@ -229,8 +250,8 @@ footer > div a:hover{
     display: flex;
     flex-direction: column;
     margin-top: 19px;
-    width: 80px;
-    height: 60px;
+    width: 99%;
+    height: 60%;
 }
 
 /*       darkseagreen        */
@@ -238,16 +259,16 @@ footer > div a:hover{
     width: 25%;
 }
 #txtCadastre{
-    float:left;
+   float: right;
     background-color:rgb(220, 236, 220);
-    padding-left:8px;
+    /* padding-left:8px; */
     font-style:italic;
-    font-size:18px;
+    font-size:60%;
     border: 1px solid;
     border-radius: 8px;
-    height:32px;
-    width:300px;
-    margin-bottom: 20px;
+    height:35px;
+    width:60%;
+    margin-bottom: 1.5%;
     
 }
 #txtCadastre:hover{
@@ -259,10 +280,11 @@ footer > div a:hover{
 }
 #divBusca{
     background-color:rgb(220, 236, 220);
-    border:solid 0px;
+    border:solid 1px;
     border-radius:8px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+ 
 
   }
   
@@ -273,8 +295,8 @@ footer > div a:hover{
     font-style:italic;
     font-size:18px;
     border:none;
-    height:32px;
-    width:300px;
+    height:3vh;
+    width:99%;
   }
 /*                                            Criei uma pagina de cadastro e ajustei os
                                               links entre as paginas cadastro e index */
