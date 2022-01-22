@@ -20,6 +20,7 @@ os usuários a terem o máximo de comforto para poderem escolher seus produtos.
 focados em no objetivo de elaborarmos um projeto com muita excelncia e que transmitisse  a melhor esperiência posível aos futuros usuários."
 
 
-link do surge: encouraging-cake.surge.sh
+link do surge: lumpy-stage.surge.sh
+
 
 ```
