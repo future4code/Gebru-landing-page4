@@ -13,4 +13,30 @@
 }
 footer {
     margin-top: 10%;
+} 
+
+@media screen and (max-device-width:600px){
+    .nosso-time{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .diminiudo-img{
+        width: 30%;
+       margin-left: 7%;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+      margin-top: 53%;
+    }
+    footer > div h3{
+        color:rgb(84, 84, 105);
+        font-size: 2.5vh;
+    }
+    .lista{
+       display: flex;
+       flex-direction: row;
+        font-size: 2.8vh;
+    }
 }

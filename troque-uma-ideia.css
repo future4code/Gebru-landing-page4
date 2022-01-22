@@ -39,3 +39,21 @@ input {
 .botao:hover{
     background:rgb(50, 230, 50);
 }
+@media screen and (max-device-width:600px){
+    form{
+        display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    height: 50%;
+    padding:20px;
+    position: absolute;
+    left: 20%;
+    top: 38%;
+    transform: (-50%, -50%);
+    margin-top: 5%;
+    }
+    
+    footer{
+        margin-top: 75vh;
+    }
+}

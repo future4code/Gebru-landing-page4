@@ -30,3 +30,12 @@
 footer{
     margin-top: 2%;
 }
+
+@media screen and (max-device-width:600px){
+    .subtitulo {
+        font-family: sans-serif;
+        font-size: 4.6vw;
+        padding-top: 1.5%;
+        color:rgb(79, 63, 80);
+    }
+}
