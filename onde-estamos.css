@@ -23,8 +23,12 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .tamanho-img{
+        width: 80%;
+        margin-left: 8%; 
+    }
     footer{
-        margin-top: 70vh;
+        margin-top: 40vh;
     }
 }
     
