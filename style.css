@@ -506,3 +506,147 @@ footer > div a:hover{
 transform: scale(1.1);
 transition: 0.3s ease;
 }
+
+/* respon-cadastro */
+@media screen and (min-device-width : 300px) and (max-device-width : 800px){
+    .registroformulario{
+        width: 800px;
+        background-color: rgb(14, 66, 27);
+        margin: auto;
+        color: #ffffff;
+        padding-left: 20px;
+        text-align:start;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow:none;
+        
+        
+    }
+
+    .nome{
+        margin-left: -4%;
+        margin-top: 3%;
+        width: 125px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .primeirolabel{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 16px;
+      left: -40px;
+      top: px;
+      opacity: 0;
+  }
+  .empresa{
+    position: relative;
+    left: 15%;
+    top: -37px;
+    line-height: 40px;
+    width:  25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.primeironome{
+    position: relative;
+    left: 15%;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+
+}
+.sobrenomelabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -60px;
+    top: px;
+    opacity: 0;
+}
+.sobrenome{
+    position: relative;
+    left: 180px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    opacity: 0;
+  }
+.email{
+    position: relative;
+    left: 15%;
+    top: -37px;
+    line-height: 40px;
+    width:  25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .codigo{
+    position: relative;
+    left: 20%;
+    top: -37px;
+    line-height: 40px;
+    width:  19.7%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:  280px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    opacity: 0;
+  }
+  .codigo_area{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 16px;
+      left: 54px;
+      top: -1;
+      opacity: 0;
+  }
+  .numero-telefone{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -130px;
+    top: -1;
+    opacity: 0;
+  }
+  .enviar{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 2px 0px 0px 12%;
+    text-align: center;
+    border-radius: 12px;
+    border:2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25;
+}
+
+
+}
