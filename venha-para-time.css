@@ -1,0 +1,41 @@
+#container{
+   text-align: center;
+   width: 80%;
+   height: 80vh;
+   margin-left: 8%;
+   margin-top: 2.5%;
+}
+.titulo{
+    font-family: sans-serif;
+    font-size: 3vw;
+   color:rgb(79, 63, 80);
+}
+.img-trabalho{
+    width: 25%;
+    width: 20%;
+    border-radius: 100%;
+    border:none;
+}
+.centro{
+    margin-left: 35%;
+    margin-top: -8%;
+    
+}
+.subtitulo {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    padding-top: 1.5%;
+    color:rgb(79, 63, 80);
+}
+footer{
+    margin-top: 2%;
+}
+
+@media screen and (max-device-width:600px){
+    .subtitulo {
+        font-family: sans-serif;
+        font-size: 4.6vw;
+        padding-top: 1.5%;
+        color:rgb(79, 63, 80);
+    }
+}

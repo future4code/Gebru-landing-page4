@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items:flex-end; 
+ padding-bottom: 3vh;
+ padding-right: 5vw;
+ padding-left: 5vw;
+/*   
+    display: flex;
+   justify-content:space-evenly;
+   align-items:flex-end; 
+   margin-top: -45px; */
+
+/*........complemetei.........*/
+ height: 35vh; /*a altura alterada*/
+ background-color: white; /*adicionei um fundo*/
+ /* position: sticky;  deichei estatco */
+ top: 0vh; /*posicionei a 0 de distancia do top para a posisação de sticky*/
+/*...............................*/
+
+}
+
+
+#img{
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    height: 35vh; /*tamanho da imagem*/
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+ 
+
+  
+
+}
+
+.img2{
+height: 20vh;
+
+
+}
+
+h2{
+    padding-left: 10vw;
+    padding-top: 2%;
+}
+.menu{           /*..............estrutura da main...........*/
+    color: hsl(207, 100%, 50%);
+    font-style: italic;
+    background-color: white;
+    box-shadow: 2px 2px 5px #00d9ff;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 20px;
+ text-align: center;
+padding-top: 1%;
+ 
+ justify-items: center; 
+  
+}
+
+.menu:hover{
+    background-color: #c5f3ed;
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease; 
+}
+
+
+#menu{
+    
+background-color: darkseagreen;
+  display: flex;
+     /* border:1px solid #00d9ff; */
+ align-items: center;
+ justify-content: center;
+     height: 60px;
+     padding-top: 1.5%;
+     padding-bottom: 1.5%;
+    font-size: 25px;
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+#menu-D{
+    font-size: 21px;
+    height: 5vh;
+    width: 15vw;
+}
+
+#menu-D:hover{
+    background-color:   #c5f3ed;
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.3s ease; 
+}
+
+#empresas{
+    background-color: rgb(248, 239, 226);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.empresas{
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 5px #2c97aa;
+    height: 22vh;
+    width: 30vw;
+    border-radius: 15px;
+    padding: 0 0 ;
+    
+}
+.empresas:hover{
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease; 
+}
+
+#grupo-empresas{
+   
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+row-gap: 15px;
+column-gap: 15px;
+justify-items: center;
+align-items: center;
+padding: 2% 5% 30vh;
+}
+
+
+.dados{  /*.........logo e informações da empresa.............*/
+    background-color: rgb(220, 236, 220);
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    
+
+padding: 2% 5%;
+}
+.dados1{
+    
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items:center;
+    padding: 2% 5%;
+    text-align:center;
+    font-size: 79%;
+    
+    
+    
+}
+
+/*.........começando a responsividade..............*/
+@media screen  and (max-device-width : 600px) {
+    #empresas{
+        background-color: rgb(248, 239, 226);
+        display: flex;
+  flex-direction: column;
+        height: 100%;
+    }
+    
+    .empresas{
+        background-color: darkseagreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 2px 2px 5px #2c97aa;
+        /* height: 22vh; */
+         width: 100vw;
+      
+        
+    }
+    #grupo-empresas{
+   display: flex;
+   flex-direction: column;
+    
+      }
+      /* header{
+          display: flex;
+          flex-direction: column;
+      } */
+
+      .menu{
+         padding-top: 2vh;
+          font-size: 1.5vh;
+      }
+      #menu-D{
+      
+        padding-top: 2vh;
+        font-size: 1.5vh;
+    } 
+    
+    #img{
+        width: 30vw;
+    }
+
+    #imgx{
+       
+       display: none;
+    }
+  .imagens-pratos1{
+    padding-left: 1.2%;
+      width: 15%!important;
+      height: 17.4vh!important;
+      margin-right: 0.3%;
+      margin-left: 0.6%;
+  
+  }
+  
+      }
+
+
+
+/*......................................................*/
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-top:5% ;
+    background-color: #D9A87E;
+    height: 48vh;
+}
+footer > div a {
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 7px;
+    margin-top: 19px;
+    text-decoration: none;
+    color:white;
+}
+footer > div a:hover{
+    color:green;
+}
+.img-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    width: 30%;
+    height: 10%;
+}
+
+/*       darkseagreen        */
+.logo{
+    width: 25%;
+}
+#txtCadastre{
+   float: right;
+    background-color:rgb(220, 236, 220);
+    /* padding-left:8px; */
+    font-style:italic;
+    font-size:60%;
+    border: 1px solid;
+    border-radius: 8px;
+    height:35px;
+    width:60%;
+    margin-bottom: 1.5%;
+    
+}
+#txtCadastre:hover{
+    color:darkgreen
+}
+#txtCadastre:active{
+    background-color:darkslategrey;
+    color: aliceblue;
+}
+#divBusca{
+    background-color:rgb(220, 236, 220);
+    border:solid 1px;
+    border-radius:8px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+ 
+
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:8px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:4vh;
+    width:99%;
+  }
+/*                                            Criei uma pagina de cadastro e ajustei os
+                                              links entre as paginas cadastro e index */
+  /* Aqui começa a estilização do formulario  */
+  section{
+    
+    background-image: url(IMAGENS/kelly-sikkema--YP-I0r2mk0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    
+  }
+  .registroformulario{
+      width: 800px;
+      background-color: rgb(14, 66, 27);
+      margin: auto;
+      color: #ffffff;
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px;
+      box-shadow: inset 0 0 1em gold, 0 0 1em red;
+  }
+
+  .conteudo{
+      background-color: rgb(0,0,0,0.6);
+      width: 800px;
+      margin: auto;
+  }
+  form{
+      padding: 10px;
+
+  }
+  #nome{
+      width: 100%;
+      height: 80%;
+  }
+  .nome{
+      margin-left: -16%;
+      margin-top: 30px;
+      width: 125px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+  }
+  .primeironome{
+      position: relative;
+      left: 200px;
+      top: -37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+
+  }
+  .sobrenome{
+    position: relative;
+    left: 180px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .primeirolabel{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left: -40px;
+      top: px;
+  }
+  .sobrenomelabel{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left: -60px;
+      top: px;
+  }
+  .empresa{
+      position: relative;
+      left: 200px;
+      top: -37px;
+      line-height: 40px;
+      width:  468px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      color: #555;
+  }
+  .email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:  468px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .codigo{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:  95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:  280px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .codigo_area{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 16px;
+      left: 54px;
+      top: -1;
+  }
+  .numero-telefone{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -130px;
+    top: -1;
+  }
+
+  .enviar{
+      background-color: #3BAF9F;
+      display: block;
+      margin: 2px 0px 0px 453px;
+      text-align: center;
+      border-radius: 12px;
+      border:2px solid #266473;
+      padding: 14px 110px;
+      outline: none;
+      color: white;
+      cursor: pointer;
+      transition: 0.25;
+  }
+  .enviar:hover{
+      background-color: rgb(39, 152, 160);
+  }
+  /* Aqui termina a Estilização do Formulario */
+
+  /* Aqui começa estilização Hamburgueria */
+  /* .grade-pratos{
+      display: flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      border: 1px solid black;
+      
+
+  }*/
+  /* Fiz os links das paginas empresas, ajustei as imagens e criei um texto
+  ficticio para cada empresa, troquei o hover , coloquei uma mais suave
+  adicionei no index uma faixa de imagens com hover nao clicaveis
+  adicionei no index as empresas. */
+   .imagens-pratos{
+    width: 13vw!important;
+    height: 17.4vh!important;
+    margin-right: 0.3%;
+    margin-left: 0.6%;
+    margin-top: 1%;
+  } 
+  .imagens-pratos1{
+    width: 13%!important;
+    height: 17.4vh!important;
+    margin-right: 0.3%;
+    margin-left: 0.6%;
+
+  } 
+.imagens-pratos1:hover{
+    -webkit-transform: scale(0.2);
+-ms-transform: scale(1.2);
+transform: scale(1.1);
+transition: 0.3s ease;
+}
+
+/* respon-cadastro */
+@media screen and (min-device-width : 300px) and (max-device-width : 800px){
+    
+    .registroformulario{
+        width: 95%;
+        background-color: rgb(14, 66, 27);
+        margin: auto;
+        color: #ffffff;
+        padding-left: 20px;
+        text-align:start;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow:none;
+        
+        
+    }
+
+    .nome{
+        margin-left: -5%;
+        margin-top: 3%;
+        width: 125px;
+        margin-right: -5%;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        
+    }
+    .primeirolabel{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 16px;
+      left: -0px;
+      top: px;
+      opacity: 0;
+  }
+  .empresa{
+    position: relative;
+    left: 12%;
+    top: -37px;
+    line-height: 40px;
+    width:  25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.primeironome{
+    position: relative;
+    left: 12%;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+
+}
+.sobrenomelabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -60px;
+    top: px;
+    opacity: 0;
+}
+.sobrenome{
+    position: relative;
+    left: 180px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    opacity: 0;
+  }
+.email{
+    position: relative;
+    left: 12%;
+    top: -37px;
+    line-height: 40px;
+    width:  25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .codigo{
+    position: relative;
+    left: 17%;
+    top: -37px;
+    line-height: 40px;
+    width:  19.7%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+  }
+  .number{
+    position: relative;
+    left: -209px;
+    top: -37px;
+    line-height: 40px;
+    width:  280px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    opacity: 0;
+  }
+  .codigo_area{
+      position: relative;
+      color: #E5E5E5;
+      text-transform: capitalize;
+      font-size: 16px;
+      left: 54px;
+      top: -1;
+      opacity: 0;
+  }
+  .numero-telefone{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -400px;
+    top: -1;
+    opacity: 0;
+  }
+  .enviar{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 2px 0px 0px 10%;
+    text-align: center;
+    border-radius: 12px;
+    border:2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25;
+}
+
+
+}
